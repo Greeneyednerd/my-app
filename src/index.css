@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
 }
 
 code {
@@ -26,6 +27,9 @@ body {
   align-items: center;
   background-color: #3a3a3a;
 }
+#login {
+height: 50%;
+}
 
 #main-holder {
   width: 50%;
@@ -33,9 +37,9 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: white;
+  background-color: #fdf9e7;
   border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px black;
+  box-shadow: 0px 0px 5px 2px #978d75;
 }
 
 #login-error-msg-holder {
@@ -71,12 +75,12 @@ body {
 }
 
 .login-form-field::placeholder {
-  color: #3a3a3a;
+  color: #978d75;
 }
 
 .login-form-field {
   border: none;
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #978d75;
   margin-bottom: 10px;
   border-radius: 3px;
   outline: none;
@@ -84,13 +88,25 @@ body {
 }
 
 #login-form-submit {
-  width: 100%;
+  width: 50%;
   padding: 7px;
-  border: none;
+  
   border-radius: 5px;
-  color: white;
+  color: #fdf9e7;
   font-weight: bold;
-  background-color: #3a3a3a;
+  background-color: #978d75;
   cursor: pointer;
   outline: none;
+}
+
+button {
+  border-radius: 12px;
+  border-color: #978d75 ;
+  background-color: #fdf9e7;
+  padding: 5px;
+  min-width: 100px;
+}
+
+#sign-up {
+  color: #978d75;
 }
